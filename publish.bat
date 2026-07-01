@@ -1,1 +1,0 @@
-python -m PyInstaller -F -w -n "BetterLyrics DevTools" main.py
