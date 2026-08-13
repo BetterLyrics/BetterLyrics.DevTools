@@ -49,8 +49,8 @@ namespace BetterLyrics.DevTools.Core
                         string prefix = type.Name;
                         string propName = prop.Name;
 
-                        baseDict[$"{prefix}_{propName}_Name"] = displayAttr.Name ?? propName;
-                        baseDict[$"{prefix}_{propName}_Desc"] = displayAttr.Description ?? "";
+                        baseDict[$"{prefix}.{propName}.Label"] = displayAttr.Name ?? propName;
+                        baseDict[$"{prefix}.{propName}.Desc"] = displayAttr.Description ?? "";
                     }
                 }
 

@@ -10,7 +10,7 @@
 		<PackageProjectUrl>https://github.com/BetterLyrics/BetterLyrics.DevTools</PackageProjectUrl>
 
 		<PackageId>BetterLyrics.DevTools</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>jayfunc</Authors>
 		<Description>BetterLyrics Official Plugins Development Toolchain</Description>
 
