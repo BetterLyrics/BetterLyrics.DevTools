@@ -46,11 +46,10 @@ namespace BetterLyrics.DevTools.Core
                         var displayAttr = prop.GetCustomAttribute<DisplayAttribute>();
                         if (displayAttr == null) continue;
 
-                        string prefix = type.Name;
                         string propName = prop.Name;
 
-                        baseDict[$"{prefix}.{propName}.Label"] = displayAttr.Name ?? propName;
-                        baseDict[$"{prefix}.{propName}.Desc"] = displayAttr.Description ?? "";
+                        baseDict[$"Settings.{propName}.Label"] = displayAttr.Name ?? propName;
+                        baseDict[$"Settings.{propName}.Desc"] = displayAttr.Description ?? "";
                     }
                 }
 
